@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:jayanti-prajapati/sample-gihub-package.git",
   "author": "Jayantilal Prajapat <jayanti.prajapat@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "@jayanti-prajapati:registry": "https://npm.pkg.github.com"
+  }
 }

@@ -2,10 +2,21 @@
   "name": "@jayanti-prajapati/sample-github-pkg",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:jayanti-prajapati/sample-gihub-package.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jayanti-prajapati/sample-gihub-package.git"
+  },
   "author": "Jayantilal Prajapat <jayanti.prajapat@gmail.com>",
   "license": "MIT",
   "publishConfig": {
     "@jayanti-prajapati:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jayanti-prajapati/sample-gihub-package/issues"
+  },
+  "homepage": "https://github.com/jayanti-prajapati/sample-gihub-package#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": ""
 }
